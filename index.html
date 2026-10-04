@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>THUỐC LÁ - ĐIẾU NHỎ, HẬU QUẢ LỚN</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#080808;
+    color:#f5f5f5;
+    line-height:1.7;
+}
+
+header{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:30px 20px;
+    background:
+        linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.9)),
+        radial-gradient(circle at center,#8b0000 0%,#160000 45%,#050505 80%);
+}
+
+.hero{
+    max-width:800px;
+}
+
+.warning{
+    color:#ff3030;
+    font-size:15px;
+    letter-spacing:4px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+h1{
+    font-size:clamp(42px,10vw,82px);
+    line-height:1;
+    text-transform:uppercase;
+    font-weight:900;
+}
+
+h1 span{
+    color:#e50914;
+}
+
+.subtitle{
+    margin:25px auto;
+    max-width:650px;
+    color:#ccc;
+    font-size:18px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:13px 28px;
+    border:1px solid #e50914;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#e50914;
+}
+
+section{
+    padding:75px 20px;
+    max-width:1100px;
+    margin:auto;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:45px;
+}
+
+.section-title h2{
+    font-size:35px;
+    text-transform:uppercase;
+}
+
+.red{
+    color:#e50914;
+}
+
+.section-title p{
+    color:#999;
+    margin-top:8px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#111;
+    border:1px solid #292929;
+    border-radius:15px;
+    padding:28px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    border-color:#e50914;
+}
+
+.icon{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.card h3{
+    color:#ff3030;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#bbb;
+}
+
+.fact{
+    background:linear-gradient(135deg,#4b0000,#120000);
+    border-left:5px solid #e50914;
+    padding:35px;
+    border-radius:12px;
+    margin-top:30px;
+}
+
+.fact h3{
+    color:#ff3333;
+    font-size:25px;
+    margin-bottom:10px;
+}
+
+.quote{
+    text-align:center;
+    padding:90px 20px;
+    background:#0d0d0d;
+}
+
+.quote h2{
+    font-size:clamp(28px,6vw,52px);
+    max-width:850px;
+    margin:auto;
+    line-height:1.25;
+}
+
+.quote span{
+    color:#e50914;
+}
+
+.timeline{
+    border-left:2px solid #e50914;
+    padding-left:25px;
+}
+
+.step{
+    margin-bottom:30px;
+}
+
+.step h3{
+    color:#ff3030;
+}
+
+.step p{
+    color:#aaa;
+}
+
+footer{
+    text-align:center;
+    padding:45px 20px;
+    background:#050505;
+    border-top:1px solid #222;
+    color:#777;
+}
+
+footer strong{
+    color:#e50914;
+}
+
+@media(max-width:600px){
+    section{
+        padding:55px 18px;
+    }
+
+    .card{
+        padding:22px;
+    }
+
+    .fact{
+        padding:25px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="hero">
+
+        <div class="warning">⚠ CẢNH BÁO SỨC KHỎE</div>
+
+        <h1>
+            THUỐC LÁ<br>
+            <span>ĐIẾU NHỎ.</span><br>
+            HẬU QUẢ LỚN.
+        </h1>
+
+        <p class="subtitle">
+            Một điếu thuốc có thể chỉ mất vài phút để hút,
+            nhưng những tổn thương mà nó để lại có thể kéo dài nhiều năm.
+        </p>
+
+        <a href="#tac-hai" class="btn">
+            KHÁM PHÁ TÁC HẠI ↓
+        </a>
+
+    </div>
+</header>
+
+
+<section id="tac-hai">
+
+    <div class="section-title">
+        <h2>Thuốc lá đang làm gì với cơ thể?</h2>
+        <p>Không chỉ phổi, gần như toàn bộ cơ thể đều có thể bị ảnh hưởng.</p>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">🫁</div>
+            <h3>PHỔI</h3>
+            <p>
+                Khói thuốc làm tổn thương đường hô hấp,
+                làm giảm chức năng phổi và làm tăng nguy cơ
+                mắc các bệnh nghiêm trọng về hô hấp.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">❤️</div>
+            <h3>TIM MẠCH</h3>
+            <p>
+                Các chất độc trong khói thuốc có thể làm
+                tổn thương mạch máu, góp phần làm tăng nguy cơ
+                bệnh tim và đột quỵ.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🧠</div>
+            <h3>NÃO BỘ</h3>
+            <p>
+                Nicotine gây nghiện và khiến người sử dụng
+                dễ hình thành sự lệ thuộc vào thuốc lá.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🦷</div>
+            <h3>RĂNG MIỆNG</h3>
+            <p>
+                Hút thuốc có thể gây hôi miệng, ảnh hưởng
+                đến răng lợi và làm tăng nguy cơ mắc các
+                bệnh lý trong khoang miệng.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="fact">
+        <h3>⚠ Đừng quên: khói thuốc không chỉ ảnh hưởng người hút</h3>
+
+        <p>
+            Người không hút thuốc vẫn có thể bị ảnh hưởng
+            khi thường xuyên hít phải khói thuốc từ người khác.
+            Vì vậy, bảo vệ bản thân cũng đồng nghĩa với
+            bảo vệ những người xung quanh.
+        </p>
+    </div>
+
+</section>
+
+
+<div class="quote">
+
+    <h2>
+        “Không có điếu thuốc nào
+        <span>vô hại.</span>”
+    </h2>
+
+</div>
+
+
+<section>
+
+    <div class="section-title">
+        <h2>Vì sao thuốc lá <span class="red">gây nghiện?</span></h2>
+
+        <p>
+            Nicotine là một trong những yếu tố chính khiến
+            người sử dụng khó từ bỏ thuốc lá.
+        </p>
+    </div>
+
+    <div class="timeline">
+
+        <div class="step">
+            <h3>01 — BẮT ĐẦU</h3>
+            <p>
+                Một số người bắt đầu hút vì tò mò,
+                muốn thử hoặc chịu ảnh hưởng từ bạn bè,
+                môi trường xung quanh.
+            </p>
+        </div>
+
+        <div class="step">
+            <h3>02 — LỆ THUỘC</h3>
+            <p>
+                Nicotine tác động lên hệ thần kinh và
+                có thể khiến cơ thể hình thành sự lệ thuộc.
+            </p>
+        </div>
+
+        <div class="step">
+            <h3>03 — KHÓ TỪ BỎ</h3>
+            <p>
+                Khi đã lệ thuộc, việc ngừng hút có thể
+                trở nên khó khăn và xuất hiện các triệu chứng
+                cai nicotine.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section>
+
+    <div class="section-title">
+
+        <h2>
+            Đừng để một thói quen
+            <span class="red">quyết định tương lai.</span>
+        </h2>
+
+        <p>
+            Không bắt đầu hút thuốc là cách đơn giản nhất
+            để tránh sự lệ thuộc nicotine.
+        </p>
+
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">🚭</div>
+            <h3>KHÔNG BẮT ĐẦU</h3>
+            <p>
+                Đừng thử chỉ vì tò mò hoặc vì áp lực từ
+                bạn bè. Bạn không cần một điếu thuốc
+                để chứng minh mình trưởng thành.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🤝</div>
+            <h3>BẢO VỆ NGƯỜI KHÁC</h3>
+            <p>
+                Hạn chế hút thuốc ở nơi có người khác,
+                đặc biệt là trẻ em và những người không hút thuốc.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🌱</div>
+            <h3>CHỌN SỨC KHỎE</h3>
+            <p>
+                Một cơ thể khỏe mạnh đáng giá hơn
+                bất kỳ khoảnh khắc tò mò nào.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <p>
+        🚭 <strong>THÔNG ĐIỆP</strong>
+    </p>
+
+    <p>
+        Vì một môi trường không khói thuốc.
+        Vì sức khỏe của chính bạn và những người bên cạnh.
+    </p>
+
+    <br>
+
+    <small>
+        Trang thông tin tuyên truyền giáo dục về tác hại của thuốc lá.
+    </small>
+
+</footer>
+
+</body>
+</html>
